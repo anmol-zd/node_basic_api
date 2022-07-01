@@ -9,6 +9,9 @@ const db=mysql.createConnection({
     password:'Anmol@12',
     database:'new'
 })
+// npm i swagger-ui-express --save
+// npm install swagger-jsdoc@6.0.0 --save
+
 
 db.connect((err)=>{
 if(err)throw err;
